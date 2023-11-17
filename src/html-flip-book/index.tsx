@@ -18,7 +18,7 @@ interface IProps extends IFlipSetting, IEventProps {
 }
 
 const HTMLFlipBookForward = React.forwardRef(
-  (props: any, ref: React.MutableRefObject<PageFlip>) => {
+  (props: IProps, ref: React.MutableRefObject<PageFlip>) => {
     const htmlElementRef = useRef<HTMLDivElement>(null);
     const childRef = useRef<HTMLElement[]>([]);
     const pageFlip = useRef<PageFlip>();
