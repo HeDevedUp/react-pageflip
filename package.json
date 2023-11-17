@@ -1,6 +1,6 @@
 {
     "name": "react-paperedflip",
-    "version": "2.0.3",
+    "version": "2.0.4",
     "author": "tochi",
     "license": "MIT",
     "description": "Simple React.js wrapper for StPageFlip library, for creating realistic and beautiful page turning effect",
